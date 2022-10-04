@@ -18,13 +18,6 @@ public class Main {
             }
         }
         System.out.println("Сумма непраних чиел " + total);
-        /*for ( int i = number; i < 100; i++ ){
-            if (i % 2 != 0){
-                total = total + i;
-                System.out.println("Непарне число " + i);
-            }
-        }
-        System.out.println("Сумма непарних чисел = " + total);*/
         // #2 (10...50)/3 = 0
         for (int i = 10; i < 50 ; i++) {
             if (i % 3 == 0){
